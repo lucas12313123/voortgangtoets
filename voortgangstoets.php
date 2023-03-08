@@ -1,8 +1,8 @@
 <?php
-
-for ($x = 0, $x <= 12, $X++){
+for ($a = 1; $a <= 12; $a++){
+for ($x = 1; $x <= 12; $x++){
     $antwoord = 1 * $x;
-    echo 1 * $x = $antwoord;
-};
+    echo $a . "X" . $x . "=" . $antwoord . PHP_EOL;
+}};
 
 ?>
