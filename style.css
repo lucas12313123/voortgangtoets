@@ -1,0 +1,88 @@
+/*css for very page*/
+
+
+#navbar{
+position: sticky;
+left: 0;
+top: 0;
+background-color: black;
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 40px;
+}
+
+#navbar li{
+    margin-right: 50px;
+}
+
+#footer{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+}
+body{
+    background-color: aquamarine;
+}
+#emptydiv{
+    height: 75px;
+}
+
+
+/*css homepage*/
+
+
+
+#divhome{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*css about me*/
+
+#divaboutme1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#divaboutme2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#divaboutme3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*css projecten*/
+
+#divproject1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#divproject2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*css contact*/
+
+#divcontact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
